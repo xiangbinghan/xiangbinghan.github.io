@@ -1,0 +1,209 @@
+/*
+*/
+@charset "utf-8";
+/* CSS Document */
+* { margin:0; padding:0; }
+body,td,th { font-size: 14px; }
+body { color:#383838; font-size:14px; font-family:"微软雅黑",Microsoft YaHei,Arial,Verdana; overflow-y:scroll; background:url("bgbg.jpg")/*tpa=https://www.sf302.com/25vicom_ms_images/bgbg.jpg*/; margin:0px;}
+
+a { font-size: 14px; color:#2b262b; }
+a:link { text-decoration: none;}
+a:visited { text-decoration: none; color:#2b262b; }
+a:hover { text-decoration: none; color:#775145; text-decoration:none;}
+a:active { text-decoration: none; color:#775145;}
+ul {  margin:0 0 0 0; padding: 0; list-style: none; }
+img{ border:0;}
+
+
+#Version { width:100%; height:1640px; position:relative; overflow:hidden;}/*页面总高度再次调整*/
+#Flash { width:1920px; height:1080px; position:absolute; left:50%; margin:0 auto 0 -960px; z-index:2;}/*FLASH*/
+#Header { margin:0 auto 0 -960px; width:1920px; height:1080px; position:absolute; left:50%; z-index:1;}/*BG*/
+#Header_1 { margin:0 auto 0 -960px; width:1920px; overflow:hidden; position:absolute; top:563px; left:50%; z-index:3;}/*BG*/
+#Header_2 { margin:0 auto 0 -960px; width:1920px; overflow:hidden; position:absolute; top:952px; left:50%; z-index:3;}/*BG*/
+
+.head_1 { width:1200px; margin: 0 auto; position:absolute; left:50%; margin-left:-600px; z-index:5; overflow:hidden;}/*整体*/
+.head_2 { width:1200px; height:1640px; position:relative;}
+.head_3 { background:url("btn1.png")/*tpa=https://www.sf302.com/25vicom_ms_images/btn1.png*/; width:110px; height:264px; left:0; top:750px; position:absolute; transition:0.5s;}
+.head_3:hover { margin-top:20px;}
+.head_4 { background:url("btn2.png")/*tpa=https://www.sf302.com/25vicom_ms_images/btn2.png*/; width:110px; height:264px; left:120px; top:750px; position:absolute; transition:0.5s;}
+.head_4:hover { margin-top:20px;}
+.head_5 { background:url("btn3.png")/*tpa=https://www.sf302.com/25vicom_ms_images/btn3.png*/; width:110px; height:264px; left:240px; top:750px; position:absolute; transition:0.5s;}
+.head_5:hover { margin-top:20px;}
+.head_6 { background:url("btn4.png")/*tpa=https://www.sf302.com/25vicom_ms_images/btn4.png*/; width:110px; height:264px; left:360px; top:750px; position:absolute; transition:0.5s;}
+.head_6:hover { margin-top:20px;}
+
+.head_7 { width:420px; height:320px; position:absolute; top:1083px; left:27px; z-index:7; background:#FFF;}
+.head_8 { width:615px; overflow:hidden; position:absolute; top:965px; right:34px; z-index:7;}
+.head_9 { width:615px; overflow:hidden; position:absolute; top:1015px; right:34px; z-index:7;}
+
+.head_10 { width:615px; height:380px;}
+
+
+.footcer_1 { background:url("../foot_img/bg.jpg")/*tpa=https://www.sf302.com/foot_img/bg.jpg*/ top center repeat-x #000; border-top:double 1px #FF0000;}
+.footcer_2 { margin:0 auto; width:1200px; height:300px; position:relative;}
+.footcer_3 { width:250px; height:140px; position:absolute; top:130px; left:0; z-index:7;}
+.footcer_3 img { width:250px; height:140px;}
+.footcer_4 { width:1200px; height:70px; line-height:70px; text-align:center; border-bottom:dashed 1px #333; position:absolute; top:0px; left:0; z-index:7;}
+.footcer_4 a { font-size:14px; font-weight:200; color:#999; letter-spacing:3.5pt;}
+.footcer_5 { width:200px; height:57px; position:absolute; top:170px; left:250px; border-left:double 1px #333; z-index:7;}
+.footcer_5 img { width:200px; height:57px;}
+
+.footcer_6 { width:800px; overflow:hidden; position:absolute; top:160px; right:0; text-align:right; z-index:7; color:#666; letter-spacing:1.4pt;}
+.footcer_6 a { padding:8px 5px; font-size:12px; color:#666;}
+.footcer_6 a:hover { color:#0CF; text-decoration:underline;}
+
+.footcer_7 { width:800px; overflow:hidden; position:absolute; top:190px; right:0; text-align:right; z-index:7; color:#666; letter-spacing:1.4pt;}
+.footcer_7 a { padding:8px 5px; font-size:12px; color:#666; letter-spacing:1pt;}
+.footcer_7 a:hover { color:#0CF; text-decoration:underline;}
+
+.footcer_8 { width:800px; overflow:hidden; position:absolute; top:220px; right:0; text-align:right; z-index:7; color:#666; letter-spacing:1.4pt;}
+.footcer_8 a { padding:8px 5px; font-size:12px; color:#666; letter-spacing:1pt;}
+.footcer_8 a:hover { color:#0CF; text-decoration:underline;}
+
+.footcer_9 { width:800px; overflow:hidden; position:absolute; top:250px; right:0; text-align:right; z-index:7; color:#666; letter-spacing:1.4pt;}
+.footcer_9 a { padding:8px 5px; font-size:12px; color:#69F; font-weight:bold; letter-spacing:1.4pt;}
+.footcer_9 a:hover { color:#0CF; text-decoration:underline;}
+.footcer_9 span { color:#713D0D}
+
+.footcer_10 { width:800px; overflow:hidden; position:absolute; top:130px; right:0; text-align:right; z-index:7; color:#666; letter-spacing:1.4pt;}
+.footcer_10 a { padding:8px 5px; font-size:12px; color:#69F; font-weight:bold; letter-spacing:1pt;}
+.footcer_10 a:hover { color:#0CF; text-decoration:underline;}
+.footcer_10 span { color:#0CF}
+
+.kv-music{position:fixed;z-index:50;top:50px;left:50px; width:58px;height:100px;}
+
+.rightbar{width:283px;height:619px;position:fixed;top:50%;right:0;margin-top:-280px;background:url("left1.png")/*tpa=https://www.sf302.com/25vicom_ms_images/left1.png*/ no-repeat;z-index:10000;text-align:center;color:#5b4022;-o-transition:all .5s;-webkit-transition:all .5s;-moz-transition:all .5s;-ms-transition:all .5s;transition:all .5s}
+.rightbar.close{right:-283px}
+.rightbar.close .btn-close{background:url("left4.png")/*tpa=https://www.sf302.com/25vicom_ms_images/left4.png*/ no-repeat}
+.rightbar .btn-close{width:69px; height:97px; background:url("left2.png")/*tpa=https://www.sf302.com/25vicom_ms_images/left2.png*/; position:absolute; bottom:0; left:-66px}
+.rightbar h6{margin-bottom:10px;padding-top:40px; padding-left:108px;/*右边*/ font-size:18px;line-height:24px;font-weight:700;overflow:hidden; color:#FFF;}
+.rightbar h6 span{display:block;font-size:14px}
+.rightbar .code{margin:0 0 10px 120px;/*右边*/width:157px; height:170px; background:#900; /*微信底色*/}
+.rightbar .code p{height:5px; line-height:5px; background:#900;/*微信底色*/}
+.rightbar p {font-size:14px;line-height:24px; margin-bottom:6px; padding-left:105px; color:#FFF;/*右边*/}
+.rightbar .kefu{margin-left:120px;/*右边*/display:block; width:157px;height:51px;background:url("left3.png")/*tpa=https://www.sf302.com/25vicom_ms_images/left3.png*/ no-repeat;line-height:50px;font-size:18px; font-weight:200; font-family:"微软雅黑"; color:#000;text-decoration:none;margin-bottom:5px}
+.rightbar .kefu:hover{background:url("left5.png")/*tpa=https://www.sf302.com/25vicom_ms_images/left5.png*/ no-repeat}
+
+.head_11 { background:url("foot.jpg")/*tpa=https://www.sf302.com/25vicom_ms_images/foot.jpg*/ bottom center no-repeat;}
+.head_12 { margin:0 auto; width:1200px; overflow:hidden;}
+
+.head_123c { margin:0 auto; width:1200px; overflow:hidden; margin-bottom:10px; background:#4c3948; border:double 1px #f099dd; -webkit-box-shadow:0 0 10px rgba(0,0,0,0.9); -ms-box-shadow:0 0 10px rgba(0,0,0,0.9); -o-box-shadow:0 0 10px rgba(0,0,0,0.9); }
+.head_124c { float:left; width:400px; overflow:hidden;}
+.head_125c { float:left; width:400px; overflow:hidden;}
+.head_126c { float:right; width:400px; overflow:hidden;}
+
+.head_127c { margin:10px; overflow:hidden; background:#e7d4e3; transition:2s; -webkit-box-shadow:0 0 10px rgba(0,0,0,0.9); -ms-box-shadow:0 0 10px rgba(0,0,0,0.9); -o-box-shadow:0 0 10px rgba(0,0,0,0.9);}
+.head_127c:hover { background:#000;}
+.head_128c { margin:0 10px; background:url("zbb.png")/*tpa=https://www.sf302.com/25vicom_ms_images/zbb.png*/ left center no-repeat; overflow:hidden;}
+.head_128c a { margin-left:30px; line-height:50px; text-align:left; font-size:22px; font-family:"微软雅黑"; font-weight:200; color:#885e37;}
+.head_129c { border-top:double 1px #828491; overflow:hidden;}
+.head_130c { margin:10px 10px; overflow:hidden; text-align:center;}
+
+.head_131c { float:left; width:600px; overflow:hidden;}
+.head_132c { float:right; width:600px; overflow:hidden;}
+.head_133c { width:1200px; overflow:hidden;}
+
+
+.head_26a table {width:613px; overflow:hidden;}
+.head_26a .ta { background:#533430; border:double 1px #FFF;}
+.head_26a .da {line-height:28px; text-align:center; font-family:"微软雅黑"; font-size:14px; font-weight:200; color:#FF9;}
+.head_26a .xa {line-height:28px; text-align:center; font-family:"微软雅黑"; font-size:14px; font-weight:200; color:#FFF;}
+.head_26a .ac { background:#6e5350;}
+.head_26a .ac:hover { background:#900; transition:0.5s;}
+.head_26a a { font-family:"微软雅黑"; font-size:14px; font-weight:200; color:#FF9;}
+.head_26a .xac {line-height:28px; text-align:center; font-family:"微软雅黑"; font-size:14px; font-weight:200; color:#FFF;}
+.head_26a .dac {line-height:28px; text-align:center; font-family:"微软雅黑"; font-size:14px; font-weight:200; color:#FF9;}
+
+.wenzi li { display:block; width:595px; overflow:hidden; border-bottom:dashed 1px #999; transition:0.5s; margin-bottom:2px;}
+.wenzi li a i { background:#7c6653; border-radius:0.5em; padding:0 5px 2px 5px; font-family:"微软雅黑"; font-size:12px; font-weight:200; color:#FF0; margin-right:5px; letter-spacing:1.0pt;}
+.wenzi li a { float:left; display:block; padding:5px 5px 7px 5px; font-size:16px; font-family:"微软雅黑"; font-weight:200; transition:0.5s; color:#453221; letter-spacing:1.0pt;}
+.wenzi li a:hover { color:#F00;}
+.wenzi li:hover { display:block; animation-name:nmyani; animation-duration:2s; border-radius:0.5em; border:dashed 1px #999; background:#FBF0E1;}
+.wenzi li span { display:block; float:right; font-size:12px; color:#F00;  padding:7px 5px 5px 5px;}
+.wenzi ul { margin:0; padding:0; line-height:none;}
+@keyframes nmyani {
+50%{ margin-left:50px;}
+80%{ margin-left:-50px;}
+100%{ margin-left:0;}
+}
+
+
+/*滚动条相关*/
+.container1 {width:100%;height:auto;margin:0 auto;}
+.container1 .div_scroll{float:left;width:100%;height:289px;overflow:auto;}
+.container1 .scroll_container{position:relative;overflow:hidden;}
+.container1 .scroll_absolute{position:absolute;}
+.container1 .scroll_vertical_bar{width:8px;height:100%;position:absolute;top:0;right:0;margin:0;padding:0;}
+.container1 .scroll_track{position:relative;border-radius:10px;background:url("line_y.gif")/*tpa=https://www.sf302.com/25vicom_ms_images/line_y.gif*/ repeat-y center top;}
+.container1 .scroll_drag{position:relative;top:0;left:0;border-top:none;border-bottom:none;cursor:pointer;background-color:#bc2f38;border-radius:20px;}
+.container1 .scroll_arrow{text-indent:-20000px;cursor:pointer;display:block;}
+.container1 .scroll_vertical_bar .scroll_arrow{height:16px;}
+/*滚动条相关*/
+
+
+
+
+#tab1 { }
+#tab1 ul { margin:0; padding:0; list-style:none;}
+#tab1 li { display: block; float:left; width:110px; height:40px;  border-bottom:double 1px #000; margin-right:30px;}
+#tab1 a { display: block; width:110px; height:23px; padding:7px 0 0 0; text-align: center; text-decoration:none; font-size:18px; font-family:"微软雅黑"; color:#000; font-weight:bold;}
+#tab1 .now { width:110px; border-bottom:double 1px #F00;}
+#tab1 .now a { display: block; background:none; font-size:18px; font-family:"微软雅黑"; color:#900; font-weight:bold;}
+#tab1 .now a:hover {  border-bottom:none; font-size:18px; font-family:"微软雅黑"; color:#900; font-weight:bold;}
+
+.tablist { display:none;}
+.block{ display:block;}
+
+
+/*幻灯*/
+.container {
+	WIDTH: 420px;
+	HEIGHT: 320px
+}
+.container A IMG {
+	WIDTH: 420px;
+	HEIGHT: 320px
+}
+.container IMG {
+	BORDER-BOTTOM-STYLE: none;
+	BORDER-RIGHT-STYLE: none;
+	BORDER-TOP-STYLE: none;
+	BORDER-LEFT-STYLE: none
+}
+.td_f A IMG {
+	PADDING-BOTTOM: 0px;
+	MARGIN: 0px;
+	PADDING-LEFT: 0px;
+	PADDING-RIGHT: 0px;
+	PADDING-TOP: 0px
+}
+.num {
+	POSITION: absolute;
+	WIDTH: 260px;
+	FLOAT: right;
+	TOP: 300px;
+	LEFT: 150px
+}
+.num LI {
+	TEXT-ALIGN: center;
+	LINE-HEIGHT: 5px;
+	LIST-STYLE-TYPE: none;
+	MARGIN:0px;
+	WIDTH: 60px;
+	FONT-FAMILY: Arial;
+	BACKGROUND: url("flashbutton.gif")/*tpa=https://www.sf302.com/25vicom_ms_images/flashbutton.gif*/ no-repeat -60px 0px;
+	FLOAT: left;
+	HEIGHT: 5px;
+	COLOR: #86a2b8;
+	FONT-SIZE:0;
+	CURSOR: pointer;
+	margin-right:10px;
+}
+.num LI.on {
+	LINE-HEIGHT:5px;
+	WIDTH:60px;
+	BACKGROUND: url("flashbutton.gif")/*tpa=https://www.sf302.com/25vicom_ms_images/flashbutton.gif*/ no-repeat;
+	HEIGHT:5px;
+	COLOR: #ffffff
+}
+/*幻灯*/
